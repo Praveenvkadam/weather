@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+    }
+    
+    body{
+       
+        justify-content: center;
+        text-align: center;
+        background-image: url("images/bgi.jpg");
+        align-items: center;
+        background-size: cover;
+        background-position:center ;
+    }
+    
+    .card{
+        margin-top: 20px;
+        padding:40px; 
+        margin-left: 470px;
+        max-width: 300px;
+        border-radius: 14px;
+        height: min-content;
+        text-align: center;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        background: #006CD7;
+        height: 480px;
+        display: flex;
+    }
+    
+    .card input{
+        width: 190px;
+        height:30px ;
+        border-radius: 15px;
+        border-color:#92b2ff ;
+    }
+
+    .card button{
+        position: fixed;
+         left: 650px;
+        width: 50px;
+        height: 30px;
+        border-radius: 50%;
+        border-color:#92b2ff ;
+    }
+    
+    .card button img{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .weather img{
+        position: fixed;
+        top:90px;
+        justify-content: center;
+        right: 540px;
+        width: 145px;
+        height: 145px;
+        align-items: center;
+        display: block;
+    }
+    
+    
+    .cityname{
+        font-family:Freeman;
+        position: fixed;
+        top: 350px;
+        right: 500px;
+        align-items: center;
+        font-weight: bold;
+        font-size: 40px;
+        color: #EABCE8;
+    }
+    
+    .temp {
+      font-family: Poppins;
+      position: fixed;
+      top: 250px;
+      left: 550px;
+      font-weight: bold;
+      font-size: 60px;
+      color: #fff;
+    }
+    
+    .wind img{
+        width: 30px;
+        height: 30px;
+        position: fixed;
+        left: 500px;
+        top: 420px;  
+    }
+    
+    .disc{
+        font-family: Rubik;
+        font-weight: bold;
+        color: 	#92b2ff;
+        position: fixed;
+        font-size: 30px;
+        top:230px;
+        left:570px;
+        
+    }
+    
+    .wind p{
+        font-family: Rubik;
+        font-weight: bold;
+        color: #a2b5cd;
+        position: fixed;
+        font-size: 17px;
+        top:430px;
+        left:530px ;
+    }
+    
+    .wind h2{
+        font-family: Rubik;
+        font-weight: bold;
+        color: 	#aebbff;
+        position:fixed;
+        font-size: 18px;
+        top:450px;
+        left:500px ;
+    }
+    
+    .hum img{
+        width: 30px;
+        height: 30px;
+        position: fixed;
+        left: 640px;
+        top: 425px;  
+    }
+    
+    .hum p{
+        font-family: Rubik;
+        font-weight: bold;
+        color: #a2b5cd;
+        position: fixed;
+        font-size: 17px;
+        top:430px;
+        left:677px ;
+    }
+    
+    .hum h2{
+        font-family: Rubik;
+        font-weight: bold;
+        color: 	#aebbff;
+        position: fixed;
+        font-size: 18px;
+        top:450px;
+        left:665px ;
+    }
+    
+    .location-not-found{
+        margin-top: 20px;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .location-not-found h1{
+        font-size: 20px;
+        color: #6b6b6b;
+        margin-block-end: 15px;
+    }
+    .location-not-found img{
+        width: 80%;
+    }
+    
